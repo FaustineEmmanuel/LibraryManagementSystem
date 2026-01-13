@@ -1,5 +1,4 @@
 
-
 #  Library Management System (VB.NET)
 
 ##  Overview
@@ -11,18 +10,18 @@ This project was developed for **academic purposes** and demonstrates practical 
 
 
 
-## ✨ Features
+## Features
 
-* 📘 Manage library books (add, update, delete)
-* 👤 Manage library members
-* 🔄 Issue and return books
-* 🗂 Track borrowed and returned books
-* 🖥 User-friendly Windows Forms interface
-* 🔐 Structured and maintainable project design
+*  Manage library books (add, update, delete)
+*  Manage library members
+*  Issue and return books
+*  Track borrowed and returned books
+*  User-friendly Windows Forms interface
+*  Structured and maintainable project design
 
----
 
-## 🛠 Technologies Used
+
+##  Technologies Used
 
 * **Programming Language:** Visual Basic .NET (VB.NET)
 * **Framework:** .NET Framework
@@ -31,7 +30,7 @@ This project was developed for **academic purposes** and demonstrates practical 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Library-Management-System/
@@ -47,12 +46,12 @@ Library-Management-System/
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/FaustineEmmanuel/Library-Management-System.git
+   git clone https://github.com/FaustineEmmanuel/LibraryManagementSystem.git
    ```
 2. Open **Visual Studio 2022**
 3. Click **File → Open → Project/Solution**
@@ -61,7 +60,7 @@ Library-Management-System/
 
 ---
 
-## 🎓 Purpose of the Project
+##  Purpose of the Project
 
 This project was created to:
 
@@ -70,23 +69,16 @@ This project was created to:
 * Apply **software development best practices**
 * Serve as a **learning and academic project**
 
----
 
-## 👤 Author
 
-**Faustine Emmanuel**
-GitHub: [https://github.com/FaustineEmmanuel](https://github.com/FaustineEmmanuel)
-
----
-
-## 📜 License
+##  License
 
 This project is intended for **educational use**.
 You are free to study, modify, and improve it for learning purposes.
 
 ---
 
-## ⭐ Acknowledgements
+##  Acknowledgements
 
 * Microsoft Visual Studio
 * VB.NET Documentation
