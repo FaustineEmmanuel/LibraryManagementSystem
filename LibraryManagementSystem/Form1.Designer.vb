@@ -38,9 +38,9 @@ Partial Class LoginForm
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(22, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(-1, -1)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(171, 129)
+        Me.PictureBox1.Size = New System.Drawing.Size(136, 129)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -51,7 +51,7 @@ Partial Class LoginForm
         Me.lblTitle.BackColor = System.Drawing.SystemColors.HighlightText
         Me.lblTitle.Font = New System.Drawing.Font("Verdana", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitle.ForeColor = System.Drawing.Color.Green
-        Me.lblTitle.Location = New System.Drawing.Point(199, 35)
+        Me.lblTitle.Location = New System.Drawing.Point(139, 31)
         Me.lblTitle.Name = "lblTitle"
         Me.lblTitle.Size = New System.Drawing.Size(359, 64)
         Me.lblTitle.TabIndex = 1
@@ -68,9 +68,9 @@ Partial Class LoginForm
         Me.Panel1.Controls.Add(Me.lblUsername)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.lblTitle)
-        Me.Panel1.Location = New System.Drawing.Point(31, 12)
+        Me.Panel1.Location = New System.Drawing.Point(187, 12)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(563, 408)
+        Me.Panel1.Size = New System.Drawing.Size(493, 408)
         Me.Panel1.TabIndex = 2
         '
         'btnLogin
@@ -80,7 +80,7 @@ Partial Class LoginForm
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogin.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btnLogin.Location = New System.Drawing.Point(248, 273)
+        Me.btnLogin.Location = New System.Drawing.Point(218, 273)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(146, 38)
         Me.btnLogin.TabIndex = 6
@@ -90,7 +90,7 @@ Partial Class LoginForm
         'txtPassword
         '
         Me.txtPassword.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.Location = New System.Drawing.Point(248, 238)
+        Me.txtPassword.Location = New System.Drawing.Point(218, 238)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtPassword.Size = New System.Drawing.Size(236, 29)
@@ -99,7 +99,7 @@ Partial Class LoginForm
         'txtUsername
         '
         Me.txtUsername.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsername.Location = New System.Drawing.Point(248, 192)
+        Me.txtUsername.Location = New System.Drawing.Point(218, 192)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(236, 29)
         Me.txtUsername.TabIndex = 4
@@ -108,7 +108,7 @@ Partial Class LoginForm
         '
         Me.lblPassword.AutoSize = True
         Me.lblPassword.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPassword.Location = New System.Drawing.Point(91, 238)
+        Me.lblPassword.Location = New System.Drawing.Point(61, 238)
         Me.lblPassword.Name = "lblPassword"
         Me.lblPassword.Size = New System.Drawing.Size(127, 31)
         Me.lblPassword.TabIndex = 3
@@ -118,7 +118,7 @@ Partial Class LoginForm
         '
         Me.lblUsername.AutoSize = True
         Me.lblUsername.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblUsername.Location = New System.Drawing.Point(91, 190)
+        Me.lblUsername.Location = New System.Drawing.Point(61, 190)
         Me.lblUsername.Name = "lblUsername"
         Me.lblUsername.Size = New System.Drawing.Size(132, 31)
         Me.lblUsername.TabIndex = 2
@@ -128,6 +128,7 @@ Partial Class LoginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "LoginForm"

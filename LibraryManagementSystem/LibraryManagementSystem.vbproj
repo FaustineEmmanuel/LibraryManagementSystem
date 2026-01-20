@@ -79,10 +79,16 @@
     <Compile Include="BooksForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DashboardForm.Designer.vb">
-      <DependentUpon>DashboardForm.vb</DependentUpon>
+    <Compile Include="BorrowedBooksForm.Designer.vb">
+      <DependentUpon>BorrowedBooksForm.vb</DependentUpon>
     </Compile>
-    <Compile Include="DashboardForm.vb">
+    <Compile Include="BorrowedBooksForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DBConnection.vb" />
@@ -99,16 +105,16 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="HomeForm.Designer.vb">
+      <DependentUpon>HomeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="IssuedBooksForm.Designer.vb">
       <DependentUpon>IssuedBooksForm.vb</DependentUpon>
     </Compile>
     <Compile Include="IssuedBooksForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IssueForm.Designer.vb">
-      <DependentUpon>IssueForm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="IssueForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MembersForm.Designer.vb">
@@ -133,25 +139,53 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ReturnForm.Designer.vb">
-      <DependentUpon>ReturnForm.vb</DependentUpon>
+    <Compile Include="NotReturnedBooksForm.Designer.vb">
+      <DependentUpon>NotReturnedBooksForm.vb</DependentUpon>
     </Compile>
-    <Compile Include="ReturnForm.vb">
+    <Compile Include="NotReturnedBooksForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ReturnedBooksForm.Designer.vb">
+      <DependentUpon>ReturnedBooksForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnedBooksForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DashboardForm.resx">
-      <DependentUpon>DashboardForm.vb</DependentUpon>
+    <EmbeddedResource Include="BooksForm.resx">
+      <DependentUpon>BooksForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowedBooksForm.resx">
+      <DependentUpon>BorrowedBooksForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeForm.resx">
+      <DependentUpon>HomeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssuedBooksForm.resx">
+      <DependentUpon>IssuedBooksForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MembersForm.resx">
+      <DependentUpon>MembersForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotReturnedBooksForm.resx">
+      <DependentUpon>NotReturnedBooksForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnedBooksForm.resx">
+      <DependentUpon>ReturnedBooksForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
