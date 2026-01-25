@@ -51,7 +51,7 @@ Library-Management-System/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/FaustineEmmanuel/LibraryManagementSystem.git
+   git clone https://github.com/FaustineEmmanuel/VB-LibraryManagementSystem-2026.git
    ```
 2. Open **Visual Studio 2022**
 3. Click **File → Open → Project/Solution**
