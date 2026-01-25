@@ -78,6 +78,12 @@ You are free to study, modify, and improve it for learning purposes.
 
 ---
 
+## Members
+* Amina Iddi
+* sesilia thadeo
+* Aneth joseph
+* Faustine Emmanuel
+
 ##  Acknowledgements
 
 * Microsoft Visual Studio
